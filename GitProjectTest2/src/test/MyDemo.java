@@ -7,6 +7,10 @@ public class MyDemo {
 		System.out.println(callMe());
 		touchMe();
 		
+		//*** Create GetInfo instance and call getInfo() method
+		GetInfo info = new GetInfo();
+		System.out.println(info.getInfo());
+		
 	}
 	
 	public static String callMe() {
