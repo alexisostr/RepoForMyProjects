@@ -2,7 +2,7 @@ package test;
 
 public class GetInfo {
 	
- public String getInfo() {
-	  return "Thanks for your call";
+ public String getInfo(String who) {
+	  return "Thanks for your call " + who;
  }
 }
