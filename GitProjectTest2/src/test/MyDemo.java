@@ -9,7 +9,7 @@ public class MyDemo {
 		
 		//*** Create GetInfo instance and call getInfo() method
 		GetInfo info = new GetInfo();
-		System.out.println(info.getInfo());
+		System.out.println(info.getInfo("Alex"));
 		
 	}
 	
