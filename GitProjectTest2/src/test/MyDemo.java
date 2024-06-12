@@ -10,6 +10,9 @@ public class MyDemo {
 		//*** Create GetInfo instance and call getInfo() method
 		GetInfo info = new GetInfo();
 		System.out.println(info.getInfo("Alex"));
+		int a = 5;
+		int b = 8;
+		System.out.println(info.getIntegerSum(a, b));
 		
 	}
 	
